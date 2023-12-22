@@ -1,0 +1,250 @@
+body  {
+    background-image: url(asset/bg/bg\ biru\ ceria\ ada\ city\ nya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px;
+    padding: auto;
+    margin: auto;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#back img {
+    width: 25px;
+    height: 25px;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+    padding-top: 25px;
+}
+
+a img{
+    width: 250px;
+    height: 250px;
+}
+
+/* sampai sini harusnya aman */
+
+#isinyaprofile {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-right: 100px;
+    padding-bottom: auto;
+}
+
+#headerleft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pictureuser img{
+    align-items: center;
+    height: 300px;
+    width: 300px;
+}
+
+#kliknya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#kliknya button {
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+#kliknya {
+    align-items: center;
+    padding: 10px;
+}
+
+/* sampai sini harusnya aman juga */
+
+#headerright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    word-spacing: 0.5px;
+}
+
+#tulisanbiodata {
+    font-size: 15px;
+    align-content: center;
+}
+
+#nama {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    font-size: 15px;
+}
+
+#namanya {
+    margin-right: 10px;
+    margin-left: 60px;
+}
+
+#ubahnama {
+    opacity: 50%;
+    align-content: flex-end;
+}
+
+#ubahnama:hover {
+    color: green;
+}
+
+#tanggallahir {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+#tanggallahirnya {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#ubahtanggal {
+    opacity: 50%;
+    align-content: flex-end;
+}
+
+#ubahtanggal:hover {
+    color: green;
+}
+
+#jeniskelamin {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+#jeniskelaminnya {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#ubahjeniskelamin {
+    opacity: 50%;
+    align-content: flex-end;
+}
+
+#ubahjeniskelamin:hover {
+    color: green;
+}
+
+#email {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+#emailnya {
+    margin-right: 0px;
+    margin-left: 70px;
+}
+
+#ubahemail {
+    opacity: 50%;
+    align-content: flex-end;
+}
+
+#ubahemail:hover {
+    color: green;
+}
+
+#nohp {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+#nohpnya {
+    margin-right: 10px;
+    margin-left: 95px;
+}
+
+#ubahnohp {
+    opacity: 50%;
+    align-content: flex-end;
+}
+
+#ubahnohp:hover {
+    color: green;
+}
+
+/* harusnya sampai sini aman */
+
+#footer {
+    margin-top: auto;
+}
+
+#footerbawah {
+    background-color: rgb(197, 249, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#footerbawahkanan {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactus {
+    align-content: center;
+    padding-right: 30px;
+    margin: auto;
+}
+
+#logoemail img{
+    padding-right: 10px;
+    width: 25px;
+}
+
+#wa, #email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px;
+    padding: auto;
+    margin: auto;
+}
+
+#logowa img{
+    width: 40px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="homepage.js"></script>
+</head>
+<body>
+    <header>
+        <div id="headerleft">
+            <div id="headerlogo">
+                <a href="index.html"><div id="logo"><img src="asset/logo/logobeliskuy-removebg-preview.png" alt="logobeliskuy" width="200"></div></a>
+            </div>
+            
+            <div id="headerpage">
+                <a class="headerlink">KATEGORI</a>
+                <div id="headerpagedropdown">
+                    <a href="semuaproduk.html">SEMUA</a>
+                    <a href="atasan.html">ATASAN</a>
+                    <a href="shoes.html">SEPATU</a>
+                    <a href="bawahan.html">BAWAHAN</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="headerright">
+            <form id="form"> 
+                <input type="search" id="query" name="q" placeholder="Cari di Beliskuy ...">
+                <button><img id="buttonform" src="asset/cp/send text.jpg" alt=""></button>
+            </form>
+            <div id="chat">
+                <!-- texting with cp nya -->
+                <a href="chatpage.html"><div id="chat"><img src="asset/cp/chat icon.png" alt=""></div></a>
+            </div>
+            <div id="cart">
+                <a href="cartpage.html"><div id="cart"><img src="asset/cp/cart icon.png" alt=""></div></a>
+            </div>
+            <div id="akunbaru">
+                <a href="register.html">Akun Baru</a>
+            </div>
+            <div id="profileuser">
+                <a href="profileuser.html"><div id="profile"><img src="asset/cp/profile acc.png" alt=""></div></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="isihomepage">
+        <!-- icon -->
+        <div class="iconproduk">
+            <div class="tulisankategori">
+                <h1>Kategori</h1>
+            </div>
+    
+            <div class="kategorinya">
+                <div class="bagianshoes">
+                    <div class="gambar">
+                        <a href="shoes.html"><img src="asset/cp/shoes icon.png" alt=""></a>
+                    </div>
+                    <div class="tulisan">
+                        <h1>Shoes</h1>
+                    </div>
+                </div>
+                
+                <div class="bagianatasan">
+                    <div class="gambar">
+                        <a href="atasan.html"><img src="asset/cp/shirt icon.png" alt=""></a>
+                    </div>
+                    <div class="tulisan">
+                        <h1>Atasan</h1>
+                    </div>
+                </div>
+        
+                <div class="bagianbawahan">
+                    <div class="gambar">
+                        <a href="bawahan.html"><img src="asset/cp/pants icon.png" alt=""></a>
+                    </div>
+                    <div class="tulisan">
+                        <h1>Bawahan</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- slider-carousel -->
+        <div id="event">
+            <div id="eventtext">
+                ~ Event ~
+            </div>
+            <div class="slider-carousel">
+                <div class="carousel-arrow" id="left-arrow">&laquo;</div>
+                <div class="carousel">
+                    <div class="carousel-image-container">
+                        <img class="carousel-image" src="asset/promotion/1.png" alt="">
+                        <img class="carousel-image" src="asset/promotion/2.png" alt="">
+                        <img class="carousel-image" src="asset/promotion/3.png" alt="">
+                        <img class="carousel-image" src="asset/promotion/4.png" alt="">
+                        <img class="carousel-image" src="asset/promotion/5.png" alt="">
+                        <img class="carousel-image" src="asset/promotion/6.png" alt="">
+                    </div>
+                </div> 
+                <div class="carousel-arrow" id="right-arrow">&raquo;</div> 
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div id="footeratas">
+            <div id="footerkiri">
+                <div id="aboutbeliskuy">
+                    BeliSkuy <br>
+                    Tentang BeliSkuy <br>
+                    Hak Kekayaan Intelektual <br>
+                    Blog <br>
+                    Bridestory <br>
+                    Beliskuy Program <br>
+                </div>
+            </div>
+            <div id="footertengah">
+                <div id="news">
+                    NEWSLETTER SIGN-UP
+                </div>
+                <div id="subscribe">
+                    Subscribe to get our latest offer!    
+                </div>
+                <div id="boxmail">
+                    <div id="email">
+                        <input type="email" name="email" id="email" placeholder="Email Address" required> 
+                    </div>
+                    <div id="subscribe">
+                        <a href="index.html"><button onclick="validate()" id="submit">Subscribe</button></a>
+                    </div>
+                </div>
+            </div>
+            <div id="footerkanan">
+                <a href="https://twitter.com"><div id="twitter"><img src="asset/cp/logo twitter.png" alt=""></div></a>
+                <a href="https://instagram.com"><div id="instagram"><img src="asset/cp/logo IG.png" alt=""></div></a>
+                <a href="https://youtube.com"><div id="youtube"><img src="asset/cp/logo YT.png" alt=""></div></a>
+                <a href="https://facebook.com"><div id="facebook"><img src="asset/cp/logo FB.png" alt=""></div></a>
+            </div>
+        </div>
+
+        <div id="footerbawah">
+            <div id="footerbawahkiri">
+                Copyright ©2021 Doto Everland <br>
+                Terms of Use | Privacy Policy
+            </div>
+            <div id="footerbawahkanan">
+                | Contact Us
+                <div id="logoemail">
+                    <img src="asset/cp/email.png" alt="">
+                </div>
+                <div id="emailcp">
+                    beliskuy@gmail.com
+                </div>
+                <div id="logowa">
+                    <img src="asset/cp/wa.png" alt="">
+                </div>
+                <div id="wacp">
+                    +628123456789
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,375 @@
+body  {
+    background-color: rgb(228, 255, 255);    
+    display: flex;
+    flex-direction: column;
+    overflow-y: visible;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+}
+
+#headerkeranjang {
+    background-image: url(asset/bg/bg\ biru\ ceria\ ada\ city\ nya.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    margin: 1px;
+    padding: auto;
+    margin: auto;
+    padding-left: 10px;
+    width: 100%;
+}
+
+#headerback {
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#back img {
+    width: 25px;
+    height: 25px;
+}
+
+#logo img {
+    width: 50px;
+    height: 50px;
+    padding-top: 20px;
+}
+
+a img{
+    width: 50px;
+    height: 50px;
+}
+
+#headerbawahdikit {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#hapussemua {
+    color: red;
+}
+
+#hapussemua  :hover{
+    color: green;
+}
+
+/* keranjang 1 */
+#isikeranjang1 {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#keranjang1nya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#keranjang1nyapunyanya {
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+    align-items: center;
+}
+
+#gambarproduk1 img{
+    width: 200px;
+}
+
+#produk1 {
+    /* margin-bottom: 90px; */
+    margin-left: 10px;
+}
+
+
+/* keranjang 2 */
+#isikeranjang2 {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#keranjang2nya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#keranjang2nyapunyanya {
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+    align-items: center;
+}
+
+#gambarproduk2 img{
+    width: 200px;
+}
+
+#produk2 {
+    /* margin-bottom: 90px; */
+    margin-left: 10px;
+}
+
+/* keranjang 3 */
+
+#isikeranjang3 {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#keranjang3nya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#keranjang3nyapunyanya {
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+    align-items: center;
+}
+
+#gambarproduk3 img{
+    width: 200px;
+}
+
+#produk3 {
+    /* margin-bottom: 90px; */
+    margin-left: 10px;
+}
+
+/* produk 4 */
+#isikeranjang4 {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#keranjang4nya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#keranjang4nyapunyanya {
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+    align-items: center;
+}
+
+#gambarproduk4 img{
+    width: 200px;
+}
+
+#produk4 {
+    /* margin-bottom: 90px; */
+    margin-left: 10px;
+}
+
+/* produk 5 */
+#isikeranjang5 {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#keranjang5nya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#keranjang5nyapunyanya {
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+    align-items: center;
+}
+
+#gambarproduk5 img{
+    width: 200px;
+}
+
+#produk5 {
+    /* margin-bottom: 90px; */
+    margin-left: 10px;
+}
+
+/* produk 6 */
+#isikeranjang6 {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#keranjang6nya {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#keranjang6nyapunyanya {
+    display: flex;
+    flex-direction: row;
+    margin-right: 60px;
+    align-items: center;
+}
+
+#gambarproduk6 img{
+    width: 200px;
+}
+
+#produk6 {
+    /* margin-bottom: 90px; */
+    margin-left: 10px;
+}
+
+/* bagian catatan, trash, -, jumlah produk, + */
+#footerprodukright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+}
+
+#quantityproduk{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+#catatanproduk{
+    padding: 20px;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+#trash, #kurangproduk, #jumlahproduk, #tambahproduk {
+    padding: 20px;
+}
+
+#catatanproduk:hover, #trash:hover, #kurangproduk:hover, #tambahproduk:hover{
+    color: green;
+}
+
+a img{
+    width: 30px;
+    height: 30px;
+}
+
+/* total bayarnya */
+
+#footerkeranjang {
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    /* justify-content: space-between; */
+}
+
+#footerkeranjang1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#footerkeranjang2 {
+    display: flex;
+    flex-direction: row;
+}
+
+#harganya {
+    padding-left: 30px;
+}
+
+#diskonnya {
+    padding-left: 55px;
+}
+
+#footerpalingbawah {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+#footerpalingbawahkanan {
+    padding-left: 100px;
+}
+
+#buttonbayar {
+    width: 100px;
+    height: 100px;
+    padding-top: 30px;
+}
+
+/* footer */
+#footer {
+    margin-top: auto;
+}
+
+#footerbawah {
+    background-color: rgb(197, 249, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#footerbawahkanan {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactus {
+    align-content: center;
+    padding-right: 30px;
+    margin: auto;
+}
+
+#logoemail img{
+    padding-right: 10px;
+    width: 25px;
+}
+
+#wa, #email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px;
+    padding: auto;
+    margin: auto;
+}
+
+#logowa img{
+    width: 40px;
+}

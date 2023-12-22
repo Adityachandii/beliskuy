@@ -1,0 +1,5 @@
+Nama		: Aditya Chandi Nugroho
+NIM		: 2440053011
+Jurusan	: Teknik Informatika dan Statistika
+Mata Kuliah	: Human and Computer Interaction
+Kelas		: BA06

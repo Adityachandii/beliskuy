@@ -1,0 +1,370 @@
+body  {
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: visible;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    margin: 0;
+    box-sizing: hidden;
+}
+
+header{
+    background-image: url(asset/bg/bg\ biru\ ceria\ ada\ city\ nya.jpg);
+    /* background-repeat: repeat; */
+    background-size: cover;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: #000; */
+    justify-content: space-between;
+    position:static;
+    align-items: center;
+    align-content: center;
+    /* padding-top: 50px; */
+    height: 60px;
+}
+
+#headerlogo img {
+    width: 50px;
+    height: 50px;
+    /* padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 25px; */
+    /* align-items: center;
+    padding-bottom: 30px; */
+}
+
+a img{
+    width: 250px;
+    height: 250px;
+}
+
+#headerleft{
+    padding: 0.2rem;
+    display: flex;
+    flex-direction: center;
+    padding-left: 20px;
+    align-items: center;
+}
+
+/* sampe sini dh aman hrsnya */
+
+#headerpage {
+    position: relative;
+    display: inline-block;
+}
+
+#headerpagedropdown {
+    display: none;
+    position: absolute;
+    /* background-color: ; */
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+
+}
+
+#headerlink{
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    padding: 15px;
+}
+
+@media screen and (max-height:300px) {
+    #headerlink{
+        margin-top: 40px;
+    }
+}
+
+#headerpagedropdown a{
+    padding-top: 15px;
+    padding-right: 200px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+    
+}
+
+#headerpage:hover #headerpagedropdown {
+    display: block;
+}
+
+@keyframes dropdown {
+
+    from{
+        transform: scaleY(0);
+    }
+    to {
+        transform: scaleY(1);
+    }
+}
+
+#headerright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+}
+
+#chat img, #cart img {
+    width: 25px;
+    height: 25px;
+}
+
+#form, #chat, #cart, #akunbaru, #profileuser{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#buttonform {
+    width: 15px;
+    width: 15px;
+}
+
+#akunbaru > a{
+    text-decoration: none;
+    color: black;
+}
+
+a img{
+    width: 50px;
+    height: 50px;
+}
+
+.isihomepage{
+    background-color: rgb(228, 255, 255);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 100px;
+}
+
+.iconproduk {
+    /* background-color: rgb(228, 255, 255); */
+    align-items: center;
+    align-content: center;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+}
+
+.tulisankategori {
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+.kategorinya{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.bagianshoes, .bagianatasan, .bagianbawahan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+#eventtext{
+    display: flex;
+    flex-direction: center;
+    font-size: 50px;
+    margin-top: 25px;
+    align-content: center;
+    justify-content: center;
+}
+
+/* slidernyaa */
+.slider-carousel {
+    /* background-color: rgb(228, 255, 255);
+    background-size: cover; */
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* width: 100%;
+    height: fit-content;
+    position: relative; */
+}
+
+.carousel-arrow{
+    font-size: 55px;
+    padding: 0px 17px;
+    display: flex;
+    align-items: center;
+}
+
+.carousel-arrow:hover{
+    cursor: pointer;
+    background-color: blanchedalmond;
+}
+
+.carousel-arrow:active{
+    background-color: blanchedalmond;
+}
+
+.carousel{
+    margin: 0px 15px;
+    overflow: hidden;
+}
+
+.carousel-image-container{
+    height: 50px;
+    position: relative;
+}
+
+.carousel-image {
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.carousel-image-container img {
+    width: 400px;
+    height: 400px;
+}
+
+/* footer */
+#footer {
+    margin-top: auto;
+    background-color: rgb(197, 249, 250);
+    padding-left: 50px;
+    padding-right: 50px
+}
+
+#footeratas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+
+#boxmail {
+    display: flex;
+    flex-direction: row;
+}
+
+#footerkiri {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 30px;
+}
+
+#footertengah {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+#footerkanan {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    align-content: center;
+}
+
+#footerbawah {
+    background-color: rgb(197, 249, 250);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+#footerbawahkanan {
+    display: flex;
+    flex-direction: row;
+}
+
+#contactus {
+    align-content: center;
+    padding-right: 30px;
+    margin: auto;
+}
+
+#logoemail img{
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 25px;
+}
+
+#wa, #email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1px;
+    padding: auto;
+    margin: auto;
+}
+
+#logowa img{
+    padding-left: 20px;
+    width: 40px;
+}
+
+
+@media screen and (max-width: 800px)
+{
+  .tulisankategori{
+    font-size: 100px;
+  }
+
+  .kategorinya{
+    width: 50%;
+    padding-left:50px ;
+    width: 190px;
+  }
+  .bagianshoes{
+    flex-direction: column;
+    padding-top: 20%;
+    padding-left: 0;
+  }
+  .bagianatasan{
+    flex-direction: column;
+    padding-top: 20%;
+    padding-left: 0;
+  }
+  .bagianbawahan{
+    flex-direction: column;
+    padding-top: 20%;
+    padding-left: 0;
+  }
+  .gambar{
+    align-items: center;
+  }
+  .tulisan{
+    width: 100%; 
+    text-align: justify;
+  }
+  .event{
+    padding-top: 10%;
+    display: none;
+  }
+  .eventtext{
+    font-size: 46px;
+    width: 100%;
+    text-align: center;
+  }
+  .slider-carousel img{
+    width: 180px;
+    height: 180px;
+  }
+}
